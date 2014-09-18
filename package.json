@@ -1,6 +1,6 @@
 {
   "name": "gulp-jsvalidate",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Validate JavaScript code and report possible syntax errors",
   "license": "MIT",
   "repository": "sindresorhus/gulp-jsvalidate",
@@ -33,7 +33,7 @@
     "code"
   ],
   "dependencies": {
-    "esprima": "^1.2.1",
+    "esprima": "git://github.com/ariya/esprima.git#harmony",
     "gulp-util": "^3.0.0",
     "through2": "^0.6.1"
   },
